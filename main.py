@@ -1,6 +1,6 @@
 def main():
-    print("Hello from gh-talk!")
+    return "Hello from gh-talk!"
 
 
 if __name__ == "__main__":
-    main()
+    print(main())

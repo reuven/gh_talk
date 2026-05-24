@@ -8,3 +8,9 @@ jobs:
         steps:
           - name: Say hello
             run: echo "Hello from my GitHub action"
+
+    test:
+        runs-on: ubuntu-latest
+        steps:
+          - name: run tests
+            run: uv run pytest

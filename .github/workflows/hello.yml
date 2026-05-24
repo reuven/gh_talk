@@ -11,6 +11,10 @@ jobs:
 
     test:
         runs-on: ubuntu-latest
+
+        strategy:
+          python-version: ["3.14"]
+
         steps:
           - uses: actions/checkout@v6
 
